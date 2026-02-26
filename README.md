@@ -6,9 +6,9 @@
 ### Enhanced Battle Mode
 Intelligent management of draw/sheathe actions
 
-[![Latest Stable](https://img.shields.io/github/v/release/NjalTheKnut/EnhancedBattleMode?color=blue&label=Stable)](https://github.com/NjalTheKnut/EnhancedBattleMode/releases/latest)
+[![Latest Stable](https://img.shields.io/github/v/release/NNekoPlugins/EnhancedBattleMode?color=blue&label=Stable)](https://github.com/NNekoPlugins/EnhancedBattleMode/releases/latest)
 
-**[Issues](https://github.com/NjalTheKnut/EnhancedBattleMode/issues) · [Pull Requests](https://github.com/NjalTheKnut/EnhancedBattleMode/pulls) · [Releases](https://github.com/NjalTheKnut/EnhancedBattleMode/releases/latest)**
+**[Issues](https://github.com/NNekoPlugins/EnhancedBattleMode/issues) · [Pull Requests](https://github.com/NNekoPlugins/EnhancedBattleMode/pulls) · [Releases](https://github.com/NNekoPlugins/EnhancedBattleMode/releases/latest)**
 
 </div>
 
@@ -23,7 +23,7 @@ Intelligent management of draw/sheathe actions.
 
 ## Installation
 > **Warning**  
-> No support will be provided on any Dalamud official support channel. Please use the [Issues](https://github.com/NjalTheKnut/EnhancedBattleMode/issues) page for any support requests. Do NOT ask for support anywhere else, as support for 3rd-party plugins is not provided by the Dalamud team. 
+> No support will be provided on any Dalamud official support channel. Please use the [Issues](https://github.com/NNekoPlugins/EnhancedBattleMode/issues) page for any support requests. Do NOT ask for support anywhere else, as support for 3rd-party plugins is not provided by the Dalamud team. 
 > 
 > Additionally, you should understand that this plugin could be detected by other players or a GM, use at your own risk.
 
