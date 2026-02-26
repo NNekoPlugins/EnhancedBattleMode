@@ -1,20 +1,18 @@
-[
-    {
-        "Author": "NaughtyNeko",
-        "Name": "Enhanced Battle Mode",
-        "InternalName": "EnhancedBattleMode",
-        "AssemblyVersion": "0.1",
-        "Punchline": "Intelligent management of draw/sheathe actions.",
-        "Description": "Intelligent management of draw/sheathe actions.",
-        "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/NNekoPlugins/EnhancedBattleMode",
-        "Tags": [ "utility", "other", "draw", "sheathe", "conditions", "chat", "commands", "NaughtyNeko", "NNeko" ],
-        "DalamudApiLevel": 14,
-        "LoadPriority": 69,
-        "IsHide": "False",
-        "IsTestingExclusive": "True",
-        "DownloadLinkInstall": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/tag/v0.1/latest.zip",
-        "DownloadLinkTesting": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/tag/v0.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/tag/v0.1/latest.zip"
-    }
-]
+{
+    "Author": "NaughtyNeko",
+    "Name": "Enhanced Battle Mode",
+    "InternalName": "EnhancedBattleMode",
+    "AssemblyVersion": "0.1",
+    "Punchline": "Intelligent management of draw/sheathe actions.",
+    "Description": "Intelligent management of draw/sheathe actions.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/NNekoPlugins/EnhancedBattleMode",
+    "Tags": [ "utility", "other", "draw", "sheathe", "conditions", "chat", "commands", "NaughtyNeko", "NNeko" ],
+    "DalamudApiLevel": 14,
+    "LoadPriority": 69,
+    "IsHide": "False",
+    "IsTestingExclusive": "True",
+    "DownloadLinkInstall": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/tag/v0.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/tag/v0.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/tag/v0.1/latest.zip"
+}
