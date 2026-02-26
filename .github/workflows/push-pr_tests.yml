@@ -4,15 +4,15 @@ on:
   push:
     branches: [main]
     paths:
-      - "TravelTriggers/**/*.cs"
-      - "TravelTriggers/**/*.csproj"
-      - "TravelTriggers/**/*.resx"
+      - "EnhancedBattleMode/**/*.cs"
+      - "EnhancedBattleMode/**/*.csproj"
+      - "EnhancedBattleMode/**/*.resx"
   pull_request:
     branches: [main]
     paths:
-      - "TravelTriggers/**/*.cs"
-      - "TravelTriggers/**/*.csproj"
-      - "TravelTriggers/**/*.resx"
+      - "EnhancedBattleMode/**/*.cs"
+      - "EnhancedBattleMode/**/*.csproj"
+      - "EnhancedBattleMode/**/*.resx"
     types: [ready_for_review, opened, synchronize, reopened]
   workflow_dispatch:
 
@@ -44,23 +44,23 @@ jobs:
 
       - name: Check for Lint Errors
         id: lint
-        working-directory: TravelTriggers
+        working-directory: EnhancedBattleMode
         continue-on-error: true
         run: | 
           dotnet format --verify-no-changes > lint.txt 2>&1
 
       - name: Report Lint Errors
-        working-directory: TravelTriggers
+        working-directory: EnhancedBattleMode
         if : steps.lint.outcome == 'failure'
         run: |
           cat lint.txt | sed -E 's/^(.*)$/::warning:: \1/g'
 
       - name: Restore Project
-        working-directory: TravelTriggers
+        working-directory: EnhancedBattleMode
         run: dotnet restore
 
       - name: Build Project
-        working-directory: TravelTriggers
+        working-directory: EnhancedBattleMode
         run: | 
           dotnet build -c ${{ matrix.build_mode }}
-          echo "Checksum: $(sha512sum bin/x64/${{ matrix.build_mode }}/TravelTriggers.dll)"
+          echo "Checksum: $(sha512sum bin/x64/${{ matrix.build_mode }}/EnhancedBattleMode.dll)"
