@@ -13,8 +13,8 @@
         "LoadPriority": 69,
         "IsHide": "False",
         "IsTestingExclusive": "True",
-        "DownloadLinkInstall": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/tag/v0.1/latest.zip",
-        "DownloadLinkTesting": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/tag/v0.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/tag/v0.1/latest.zip"
+        "DownloadLinkInstall": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/download/v0.1/latest.zip",
+        "DownloadLinkTesting": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/download/v0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/download/v0.1/latest.zip"
     }
 ]
