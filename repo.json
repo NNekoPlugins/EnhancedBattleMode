@@ -1,8 +1,7 @@
 [
     {
         "Author": "NaughtyNeko",
-        "Name": "EnhancedBattleMode",
-        "InternalName": "EnhancedBattleMode",
+        "Name": "Enhanced Battle Mode",
         "AssemblyVersion": "0.1",
         "Punchline": "Intelligent management of draw and sheathe actions.",
         "Description": "Intelligent management of draw and sheathe actions.",
