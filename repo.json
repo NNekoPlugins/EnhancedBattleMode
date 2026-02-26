@@ -1,7 +1,7 @@
 [
     {
         "Author": "NaughtyNeko",
-        "Name": "Enhanced Battle Mode",
+        "Name": "EnhancedBattleMode",
         "InternalName": "EnhancedBattleMode",
         "AssemblyVersion": "0.1",
         "Punchline": "Intelligent management of draw and sheathe actions.",
@@ -11,7 +11,6 @@
         "Tags": [ "utility", "other", "draw", "sheathe", "conditions", "chat", "commands", "NaughtyNeko", "NNeko" ],
         "DalamudApiLevel": 14,
         "LoadPriority": 69,
-        "IconUrl": "https://github.com/NNekoPlugins/NNekoTriggers/raw/main/NNekoTriggers/images/ttrig.png",
         "IsHide": "False",
         "IsTestingExclusive": "True",
         "DownloadLinkInstall": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/download/v0.1/latest.zip",
