@@ -37,7 +37,7 @@ public sealed class Plugin : IDalamudPlugin
     public Plugin()
     {
         ECommonsMain.Init(PluginInterface, this, Module.DalamudReflector);
-        
+
         Configuration = PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
 
         CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand)
@@ -66,11 +66,11 @@ public sealed class Plugin : IDalamudPlugin
 
 
     public static Emote? FindEmoteByCommand(IDataManager dataManager, string command)
-{
-    command = command.ToLowerInvariant();
-
-    foreach (var emote in dataManager.GetExcelSheet<Emote>()!)
     {
+        command = command.ToLowerInvariant();
+
+        foreach (var emote in dataManager.GetExcelSheet<Emote>()!)
+        {
             var textCommand = emote.TextCommand.Value;
             if (textCommand.Command.IsEmpty)
             {
@@ -84,8 +84,8 @@ public sealed class Plugin : IDalamudPlugin
             }
         }
 
-    return null;
-}
+        return null;
+    }
     private static IExposedPlugin? findPlugin(string name)
     {
         IExposedPlugin[] plugins = [.. PluginInterface.InstalledPlugins];
