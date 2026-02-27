@@ -30,5 +30,5 @@ Intelligent management of draw/sheathe actions.
 This plugin can be installed as a 3rd-party plugin via the Dalamud Plugin Installer. To do so, add the following URL to `Settings > Experimental > Custom Plugin Repositories`:
 
 ```
-https://raw.githubusercontent.com/NjalTheKnut/NNekoPlugins/main/repo.json
+https://raw.githubusercontent.com/NNekoPlugins/EnhancedBattleMode/main/repo.json
 ```
