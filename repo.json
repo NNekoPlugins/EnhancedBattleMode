@@ -13,7 +13,7 @@
         "DalamudApiLevel": 14,
         "LoadPriority": 69,
         "IsHide": "False",
-        "IsTestingExclusive": "True",
+        "IsTestingExclusive": "False",
         "DownloadLinkInstall": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/download/v0.1/latest.zip",
         "DownloadLinkTesting": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/download/v0.1/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NNekoPlugins/EnhancedBattleMode/releases/download/v0.1/latest.zip"
