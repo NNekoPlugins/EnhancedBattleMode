@@ -4,6 +4,7 @@
         "Name": "Enhanced Battle Mode",
         "InternalName": "EnhancedBattleMode",
         "AssemblyVersion": "0.1",
+        "TestingAssemblyVersion": "0.1",
         "Punchline": "Intelligent /bm replacement.",
         "Description": "Intelligent /bm replacement.",
         "ApplicableVersion": "any",
