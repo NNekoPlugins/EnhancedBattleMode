@@ -5,6 +5,7 @@
         <Author>NaughtyNeko</Author>
         <Punchline>Intelligent management of draw/sheathe actions for a popular game.</Punchline>
         <Description>Intelligent management of draw/sheathe actions for a popular game.</Description>
+        <Version>0.1</Version>
         <WarningLevel>4</WarningLevel>
         <PackageProjectUrl>https://github.com/NNekoPlugins/EnhancedBattleMode</PackageProjectUrl>
         <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
