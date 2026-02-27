@@ -2,10 +2,10 @@
     {
         "Author": "NaughtyNeko",
         "Name": "Enhanced Battle Mode",
-        "AssemblyVersion": "0.1",
+        "InternalName": "Enhanced Battle Mode",
+        "ApplicableVersion": "any",
         "Punchline": "Intelligent management of draw and sheathe actions.",
         "Description": "Intelligent management of draw and sheathe actions.",
-        "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/NNekoPlugins/EnhancedBattleMode",
         "Tags": [ "utility", "other", "draw", "sheathe", "conditions", "chat", "commands", "NaughtyNeko", "NNeko" ],
         "DalamudApiLevel": 14,
