@@ -1,6 +1,6 @@
 <div align="center">
 
-<span><img src=".assets/ttrig.png" alt="Rendering of a Fantasy stone arch, bedecked with crystals, and filled with a swirling, arcane portal." width="15%"></span>
+<span><img src="./Data/NNeko.png" alt="Rendering of a Fantasy stone arch, bedecked with crystals, and filled with a swirling, arcane portal." width="15%"></span>
 
   
 ### Enhanced Battle Mode
